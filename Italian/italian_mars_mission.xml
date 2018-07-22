@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Italian</Name>
+  <Code>IT</Code>
+  <Font>font_italian</Font>
+  <Font>font_extended</Font>
+  <Interface>
+  	<!-- Mission Stage: In Case of Emergency -->
+	<Record>
+      <Key>MarsTitleInCaseOfEmergency</Key>
+      <Value>In Case of Emergency...</Value>
+    </Record>
+	<Record>
+      <Key>MarsDescInCaseOfEmergency</Key>
+      <Value>Your suit is damaged and you need to find some food.</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskGetTape</Key>
+      <Value>Find some {THING:ItemDuctTape}</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskGetFood</Key>
+      <Value>Find a {THING:ItemCerealBar}</Value>
+    </Record> 
+	<Record>
+      <Key>MarsTabletStage1Page1</Key>
+      <Value>PAGE 1 of 2\nDONT PANIC.\n\nIf you're reading this you've survived the evacuation - congratulations.  Regardless of your environment your first priority is to check the health of yourself and those around you.  Be sure to check suit integrity as well as there is no telling what environment you may find yourself in and protecting whatever air supply you have is crucial.</Value>
+    </Record> 
+	<Record>
+      <Key>MarsTabletStage1Page2</Key>
+      <Value>PAGE 2 of 2 \nIf you are near an intact escape pod and attached supply crate you should have some crucial supplies to aide your wait for rescue. If not, then search for survivors.  You should be sure to note the location of, or collect, any supplies that will be of upmost importance for your survival such as food, batteries, utility materials like duct tape and portable survival equipment. \n</Value>
+    </Record> 
+
+	<!-- Mission Stage: Aquire Raw Materials -->
+	<Record>
+      <Key>MarsTitleRawMaterials</Key>
+      <Value>Beg, Burrow and Steal</Value>
+    </Record>
+	<Record>
+      <Key>MarsDescRawMaterials</Key>
+      <Value>Find a way to produce the basic materials you need to get manufacturing underway.</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskGetIronIngots</Key>
+      <Value>Get a {THING:ItemIronIngot}</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskGetCopperIngots</Key>
+      <Value>Get a {THING:ItemCopperIngot}</Value>
+    </Record>
+		<Record>
+      <Key>MarsTaskGetGoldIngots</Key>
+      <Value>Get a {THING:ItemGoldIngot}</Value>
+    </Record>
+	<Record>
+      <Key>MarsTabletStage2Page1</Key>
+      <Value>PAGE 1 of 4 \nBEG, BURROW or STEAL\n\nLuckily our manufacturing tools have knowledge of all the recipes you're likely to need in your situation.  Unfortunately, they'll need raw materials in order to do so.  These could come from several sources based on your situation:</Value>
+    </Record> 
+	<Record>
+      <Key>MarsTabletStage2Page2</Key>
+      <Value>PAGE 2 of 4 \nSCAVENGE\n\nIf your vessel is still largely intact, you may be able to find materials in their processed form, either already inside manufacturing machines or stored nearby.\n\nDISMANTLE\n\nIf you're able to find or manufacture an Angle Grinder, you should be able to use it to dismantle some of the ship wreckage.  A Recycler can be used to break these down into a mix of it's component materials and a Centrifuge will separate them out so they can be re-smelted into usable materials.</Value>
+    </Record> 
+	
+	<!-- Mission Stage: Setup Manufacturing -->
+	<Record>
+      <Key>MarsTitleSetupManufacturing</Key>
+      <Value>Seizing the means of production</Value>
+    </Record>
+	<Record>
+      <Key>MarsDescSetupManufacturing</Key>
+      <Value>In order to manufacture everything we'll need, we should start with a {THING:ItemKitHydraulicPipeBender} and a {THING:ItemKitElectronicsPrinter}.</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskManufactureHPB</Key>
+      <Value>Manufacture a {THING:ItemKitHydraulicPipeBender}</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskManufactureEP</Key>
+      <Value>Manufacture a {THING:ItemKitElectronicsPrinter}</Value>
+    </Record>
+	<Record>
+      <Key>MarsTabletStage1Page1</Key>
+      <Value>PAGE 1 of 2\nDONT PANIC.\n\nIf you're reading this you've survived the evacuation - congratulations.  Regardless of your environment your first priority is to check the health of yourself and those around you.  Be sure to check suit integrity as well as there is no telling what environment you may find yourself in and protecting whatever air supply you have is crucial.</Value>
+    </Record> 
+	<Record>
+      <Key>MarsTabletStage1Page2</Key>
+      <Value>PAGE 2 of 2 \nIf you are near an intact escape pod and attached supply crate you should have some crucial supplies to aide your wait for rescue. If not, then search for survivors.  You should be sure to note the location of, or collect, any supplies that will be of upmost importance for your survival such as food, batteries, utility materials like duct tape and portable survival equipment. \n</Value>
+    </Record> 
+	
+	<!-- Mission Stage: Food Supply -->
+	<Record>
+      <Key>MarsTitleFoodSupply</Key>
+      <Value>A Reliable Food Source</Value>
+    </Record>
+	<Record>
+      <Key>MarsDescFoodSupply</Key>
+      <Value>We don't know how long you'll need to survive here.  We should prepare a renewable source of food just in case.</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskPrepareAtmos</Key>
+      <Value>Create a pressurized room with an atmosphere sufficient to grow Potatoes.</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskGrowPotato</Key>
+      <Value>Obtain a {THING:ItemPotato}</Value>
+    </Record>
+
+	<!-- Mission Stage: Spawn Mothership & Engine -->
+	<Record>
+      <Key>MarsTitleCreateMothership</Key>
+      <Value>Creating a Mothership</Value>
+    </Record>
+	<Record>
+      <Key>MarsDescCreateMothership</Key>
+      <Value>Create a Mothership by spawning a {THING:MothershipCore} and attaching a {THING:StructureRocketEngine} to it</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskSpawnMothershipCore</Key>
+      <Value>Spawn a {THING:MothershipCore}</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskAttachEngine</Key>
+      <Value>Attach a {THING:StructureRocketEngine} to the {THING:MothershipCore}</Value>
+    </Record>
+	<Record>
+      <Key>MarsTitleLaunchMothership</Key>
+      <Value>Launching a Mothership</Value>
+    </Record>
+	
+	<!-- Mission Stage: Launch -->
+	<Record>
+      <Key>MarsDescLaunchMothership</Key>
+      <Value>Blast off into space and reclaim your place in the skies!</Value>
+    </Record>
+	<Record>
+      <Key>MarsTaskLaunchMothership</Key>
+      <Value>Launch your mothership to an altitude of 100m</Value>
+    </Record>
+  </Interface>
+</Language>
