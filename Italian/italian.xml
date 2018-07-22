@@ -3,6 +3,7 @@
   <Name>Italian</Name>
   <Code>IT</Code>
   <Font>font_italian</Font>
+  <Font>font_extended</Font>
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>

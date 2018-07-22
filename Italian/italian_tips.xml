@@ -1,5 +1,6 @@
 ﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>IT</Code>
+  <Font>font_extended</Font>
   <GameTip>
     <String>Press {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, or {KEY:ToolBeltSlot} to toggle through interactions and slots on any slot item you're wearing. Press and hold to swap between that slot and your active hands.</String>
     <String>Press {KEY:ToggleHandPower} to toggle what you're holding in your hands on or off quickly.</String>
