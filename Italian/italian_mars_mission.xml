@@ -1,140 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Italian</Name>
+<!-- Versione File: v0.1.1546.7274 - Versione Traduzione: v0.1.1546.7274 (rev.1) -->
+<!-- Per Contribuire: https://github.com/vikjITA/Stationeers_Italian_Translation -->
+  <Name>Italiano</Name>
   <Code>IT</Code>
   <Font>font_italian</Font>
   <Font>font_extended</Font>
   <Interface>
-  	<!-- Mission Stage: In Case of Emergency -->
+  	<!-- Stadio missione: In caso di Emergenza -->
 	<Record>
       <Key>MarsTitleInCaseOfEmergency</Key>
-      <Value>In Case of Emergency...</Value>
+      <Value>In caso di Emergenza...</Value>
     </Record>
 	<Record>
       <Key>MarsDescInCaseOfEmergency</Key>
-      <Value>Your suit is damaged and you need to find some food.</Value>
+      <Value>La tua tuta è danneggiata e devi trovare del cibo.</Value>
     </Record>
 	<Record>
       <Key>MarsTaskGetTape</Key>
-      <Value>Find some {THING:ItemDuctTape}</Value>
+      <Value>Cerca un pò di {THING:ItemDuctTape}</Value>
     </Record>
 	<Record>
       <Key>MarsTaskGetFood</Key>
-      <Value>Find a {THING:ItemCerealBar}</Value>
+      <Value>Trova una {THING:ItemCerealBar}</Value>
     </Record> 
 	<Record>
       <Key>MarsTabletStage1Page1</Key>
-      <Value>PAGE 1 of 2\nDONT PANIC.\n\nIf you're reading this you've survived the evacuation - congratulations.  Regardless of your environment your first priority is to check the health of yourself and those around you.  Be sure to check suit integrity as well as there is no telling what environment you may find yourself in and protecting whatever air supply you have is crucial.</Value>
+      <Value>PAGINA 1 di 2\nNIENTE PANICO.\n\nSe stai leggendo questo sei sopravvissuto all'evacuazione, Congratulazioni! Al di là dell'ambiente che ti circonda la tua prima priorità è controllare la tua salute e di quelli che ti circondano. Stai attento ad assicurare l'integrità della tua tuta visto che non hai modo di sapere in che tipo di ambiente tu possa trovarti e di proteggere qualsiasi rifornimento di ossigeno che hai è cruciale.</Value>
     </Record> 
 	<Record>
       <Key>MarsTabletStage1Page2</Key>
-      <Value>PAGE 2 of 2 \nIf you are near an intact escape pod and attached supply crate you should have some crucial supplies to aide your wait for rescue. If not, then search for survivors.  You should be sure to note the location of, or collect, any supplies that will be of upmost importance for your survival such as food, batteries, utility materials like duct tape and portable survival equipment. \n</Value>
+      <Value>PAGINA 2 di 2 \nSe ti trovi vicino ad una capsula di salvataggio intatta con annesse casse di rifornimenti dovresti avere a tua disposizione dei rifornimenti che saranno cruciali nell'aiutarti in attesa di soccorsi. Altrimenti cerca altri sopravvissuti. Stai attento, ricordati la posizione dei rifornimenti perchè sono di fondamentale importanza per la tua sopravvivenza come il cibo, le batterie, materiali di utilità come il nastro adesivo e l'equipaggiamento di sopravvivenza portatile. \n</Value>
     </Record> 
 
-	<!-- Mission Stage: Aquire Raw Materials -->
+	<!-- Stadio missione: Acquisizione materiali grezzi -->
 	<Record>
       <Key>MarsTitleRawMaterials</Key>
-      <Value>Beg, Burrow and Steal</Value>
+      <Value>Fai del tuo meglio!</Value>
     </Record>
 	<Record>
       <Key>MarsDescRawMaterials</Key>
-      <Value>Find a way to produce the basic materials you need to get manufacturing underway.</Value>
+      <Value>Trova un modo di produrre i materiali di base che servono a fare partire la produzione.</Value>
     </Record>
 	<Record>
       <Key>MarsTaskGetIronIngots</Key>
-      <Value>Get a {THING:ItemIronIngot}</Value>
+      <Value>Ottieni un {THING:ItemIronIngot}</Value>
     </Record>
 	<Record>
       <Key>MarsTaskGetCopperIngots</Key>
-      <Value>Get a {THING:ItemCopperIngot}</Value>
+      <Value>Ottieni un {THING:ItemCopperIngot}</Value>
     </Record>
 		<Record>
       <Key>MarsTaskGetGoldIngots</Key>
-      <Value>Get a {THING:ItemGoldIngot}</Value>
+      <Value>Ottieni un {THING:ItemGoldIngot}</Value>
     </Record>
 	<Record>
       <Key>MarsTabletStage2Page1</Key>
-      <Value>PAGE 1 of 4 \nBEG, BURROW or STEAL\n\nLuckily our manufacturing tools have knowledge of all the recipes you're likely to need in your situation.  Unfortunately, they'll need raw materials in order to do so.  These could come from several sources based on your situation:</Value>
+      <Value>PAGINA 1 di 4 \nFAI DEL TUO MEGLIO\n\nFortunatamente i nostri strumenti di fabbricazione hanno già in memoria tutte le ricette di cui avrai probabilmente bisogno nella tua situazione. Sfortunatamente, avranno bisogno dei materiali grezzi per funzionare. Questi potrebbero essere ricavati da diverse sorgenti in base alla tua situazione:</Value>
     </Record> 
 	<Record>
       <Key>MarsTabletStage2Page2</Key>
-      <Value>PAGE 2 of 4 \nSCAVENGE\n\nIf your vessel is still largely intact, you may be able to find materials in their processed form, either already inside manufacturing machines or stored nearby.\n\nDISMANTLE\n\nIf you're able to find or manufacture an Angle Grinder, you should be able to use it to dismantle some of the ship wreckage.  A Recycler can be used to break these down into a mix of it's component materials and a Centrifuge will separate them out so they can be re-smelted into usable materials.</Value>
+      <Value>PAGINA 2 di 4 \nFRUGA\n\nSe l'astronave è ancora largamente intatta, potresti essere in grado di trovare materiali nella loro forma già completa, già pronti per essere inseriti in macchine di fabbricazione o stoccati lì vicino.\n\nSMANTELLA\n\nSe sei in grado di trovare o fabbricare un Flessibile, dovresti essere in grado di utilizzarlo per smantellare qualche rottame della nave. Puoi usare un Riciclatore per sminuzzarli e creare un mix dei materiali che li compongono e usare poi una Centrifuga che li separerà, così che possano essere di nuovo fusi in materiali utilizzabili.</Value>
     </Record> 
 	
-	<!-- Mission Stage: Setup Manufacturing -->
+	<!-- Stadio Missione: Imposta Fabbricazione -->
 	<Record>
       <Key>MarsTitleSetupManufacturing</Key>
-      <Value>Seizing the means of production</Value>
+      <Value>Conoscere i mezzi di produzione</Value>
     </Record>
 	<Record>
       <Key>MarsDescSetupManufacturing</Key>
-      <Value>In order to manufacture everything we'll need, we should start with a {THING:ItemKitHydraulicPipeBender} and a {THING:ItemKitElectronicsPrinter}.</Value>
+      <Value>In modo da fabbricare tutto quello che ci servirà, dovremmo iniziare con un {THING:ItemKitHydraulicPipeBender} e una {THING:ItemKitElectronicsPrinter}.</Value>
     </Record>
 	<Record>
       <Key>MarsTaskManufactureHPB</Key>
-      <Value>Manufacture a {THING:ItemKitHydraulicPipeBender}</Value>
+      <Value>Fabbrica un {THING:ItemKitHydraulicPipeBender}</Value>
     </Record>
 	<Record>
       <Key>MarsTaskManufactureEP</Key>
-      <Value>Manufacture a {THING:ItemKitElectronicsPrinter}</Value>
+      <Value>Fabbrica una {THING:ItemKitElectronicsPrinter}</Value>
     </Record>
 	<Record>
       <Key>MarsTabletStage1Page1</Key>
-      <Value>PAGE 1 of 2\nDONT PANIC.\n\nIf you're reading this you've survived the evacuation - congratulations.  Regardless of your environment your first priority is to check the health of yourself and those around you.  Be sure to check suit integrity as well as there is no telling what environment you may find yourself in and protecting whatever air supply you have is crucial.</Value>
+      <Value>PAGINA 1 di 2\nNIENTE PANICO.\n\nSe stai leggendo questo sei sopravvissuto all'evacuazione, Congratulazioni! Al di là dell'ambiente che ti circonda la tua prima priorità è controllare la tua salute e di quelli che ti circondano. Stai attento ad assicurare l'integrità della tua tuta visto che non hai modo di sapere in che tipo di ambiente tu possa trovarti e di proteggere qualsiasi rifornimento di ossigeno che hai è cruciale.</Value>
     </Record> 
 	<Record>
       <Key>MarsTabletStage1Page2</Key>
-      <Value>PAGE 2 of 2 \nIf you are near an intact escape pod and attached supply crate you should have some crucial supplies to aide your wait for rescue. If not, then search for survivors.  You should be sure to note the location of, or collect, any supplies that will be of upmost importance for your survival such as food, batteries, utility materials like duct tape and portable survival equipment. \n</Value>
-    </Record> 
+      <Value>PAGINA 2 di 2 \nSe ti trovi vicino ad una capsula di salvataggio intatta con annesse casse di rifornimenti dovresti avere a tua disposizione dei rifornimenti che saranno cruciali nell'aiutarti in attesa di soccorsi. Altrimenti cerca altri sopravvissuti. Stai attento, ricordati la posizione dei rifornimenti e di fondamentale importanza per la tua sopravvivenza come il cibo, le batterie, materiali di utilità come il nastro adesivo e l'equipaggiamento di sopravvivenza portatile. \n</Value>
+    </Record>
 	
-	<!-- Mission Stage: Food Supply -->
+	<!-- Stadio Missione : Fonti di cibo -->
 	<Record>
       <Key>MarsTitleFoodSupply</Key>
-      <Value>A Reliable Food Source</Value>
+      <Value>Una fonte di cibo affidabile</Value>
     </Record>
 	<Record>
       <Key>MarsDescFoodSupply</Key>
-      <Value>We don't know how long you'll need to survive here.  We should prepare a renewable source of food just in case.</Value>
+      <Value>Non sappiamo per quanto tempo dovrai sopravvivere qui. Dovremmo preparare una fonte rinnovabile di cibo in questo caso.</Value>
     </Record>
 	<Record>
       <Key>MarsTaskPrepareAtmos</Key>
-      <Value>Create a pressurized room with an atmosphere sufficient to grow Potatoes.</Value>
+      <Value>Crea una stanza pressurizzata con un'atmosfera sufficiente a coltivare le Patate.</Value>
     </Record>
 	<Record>
       <Key>MarsTaskGrowPotato</Key>
-      <Value>Obtain a {THING:ItemPotato}</Value>
+      <Value>Ottieni una {THING:ItemPotato}</Value>
     </Record>
 
-	<!-- Mission Stage: Spawn Mothership & Engine -->
+	<!-- Stadio Missione : Creazione Astronave e Motore -->
 	<Record>
       <Key>MarsTitleCreateMothership</Key>
-      <Value>Creating a Mothership</Value>
+      <Value>Creazione di un'astronave</Value>
     </Record>
 	<Record>
       <Key>MarsDescCreateMothership</Key>
-      <Value>Create a Mothership by spawning a {THING:MothershipCore} and attaching a {THING:StructureRocketEngine} to it</Value>
+      <Value>Crea un'astronave utilizzando un {THING:MothershipCore} e attaccandoci un {THING:StructureRocketEngine} </Value>
     </Record>
 	<Record>
       <Key>MarsTaskSpawnMothershipCore</Key>
-      <Value>Spawn a {THING:MothershipCore}</Value>
+      <Value>Genera un {THING:MothershipCore}</Value>
     </Record>
 	<Record>
       <Key>MarsTaskAttachEngine</Key>
-      <Value>Attach a {THING:StructureRocketEngine} to the {THING:MothershipCore}</Value>
+      <Value>Attacca un {THING:StructureRocketEngine} al {THING:MothershipCore}</Value>
     </Record>
 	<Record>
       <Key>MarsTitleLaunchMothership</Key>
-      <Value>Launching a Mothership</Value>
+      <Value>Il Lancio l'astronave</Value>
     </Record>
 	
-	<!-- Mission Stage: Launch -->
+	<!-- Stadio Missione : Lancio -->
 	<Record>
       <Key>MarsDescLaunchMothership</Key>
-      <Value>Blast off into space and reclaim your place in the skies!</Value>
+      <Value>Decolla nello spazio e reclama il tuo posto nei cieli!</Value>
     </Record>
 	<Record>
       <Key>MarsTaskLaunchMothership</Key>
-      <Value>Launch your mothership to an altitude of 100m</Value>
+      <Value>Lancia la tua astronave fino ad una altitudine di 100m</Value>
     </Record>
   </Interface>
 </Language>
