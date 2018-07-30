@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<!-- Versione File: v0.1.1546.7274 - Versione Traduzione: v0.1.1546.7274 (rev.1) -->
+<!-- Versione File: v0.1.1557.7324 - Versione Traduzione: v0.1.1557.7324 (rev.1) -->
 <!-- Per Contribuire: https://github.com/vikjITA/Stationeers_Italian_Translation -->
 <!--                    Italian.xml tradotto da '[ExR] Mekko'                    -->
   <Name>Italiano</Name>
@@ -121,7 +121,8 @@
     <RecordReagent>
       <Key>Potato</Key>
       <Value>Patata</Value>
-      <Unit />     
+      <Unit />
+      
     </RecordReagent>
      <RecordReagent>
       <Key>Fenoxitone</Key>
@@ -3164,7 +3165,11 @@
       <Key>AccessCard</Key>
       <Value>Scheda d'accesso</Value>
     </Record>
-     <Record>
+	<Record>
+      <Key>Access</Key>
+      <Value>Accesso</Value>
+    </Record>
+    <Record>
       <Key>Magazine</Key>
       <Value>Magazine</Value>
     </Record>
@@ -3510,11 +3515,7 @@
       <Key>Color</Key>
       <Value>Colore</Value>
     </Record>
-	<Record>
-      <Key>Access</Key>
-      <Value>Accesso</Value>
-    </Record>
-    <Record>
+       <Record>
       <Key>Magazine</Key>
       <Value>Magazine</Value>
     </Record>
@@ -4728,6 +4729,18 @@ Temperatura {1}</Value>
     <Record>
       <Key>SettingsChunkRenderDistance</Key>
       <Value>Distanza Render Chunk</Value>
+    </Record>
+      <Record>
+      <Key>ScenarioScoreboardBackToMenu</Key>
+      <Value>Torna al Menù</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioScoreboardReturnToGame</Key>
+      <Value>Torna al Gioco</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioScoreboardHeading</Key>
+      <Value>Scenario Completato</Value>
     </Record>
   </Interface>
   <Colors>
