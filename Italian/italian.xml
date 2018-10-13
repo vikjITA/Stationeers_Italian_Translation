@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<!-- Versione File: v0.1.1557.7324 - Versione Traduzione: v0.1.1557.7324 (rev.1) -->
+<!-- Versione File: v0.2.1749.8083 - Versione Traduzione: v0.2.1749.8083 (rev.0) -->
 <!-- Per Contribuire: https://github.com/vikjITA/Stationeers_Italian_Translation -->
-<!--                    Italian.xml tradotto da '[ExR] Mekko'                    -->
-  <Name>Italiano</Name>
+<!--              Italian.xml tradotto da '[ExR] Mekko' & 'vikjITA'              -->
+  <Name>Italian</Name>
   <Code>IT</Code>
   <Font>font_italian</Font>
   <Font>font_extended</Font>
@@ -122,11 +122,50 @@
       <Key>Potato</Key>
       <Value>Patata</Value>
       <Unit />
-      
     </RecordReagent>
-     <RecordReagent>
+     <RecordReagent>									   
+	<Key>Tomato</Key>
+      <Value>Pomodoro</Value>
+      <Unit />
+    </RecordReagent>
+    <RecordReagent>		  							   
       <Key>Fenoxitone</Key>
       <Value>Fenoxitone</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorRed</Key>
+      <Value>Tinta Rosso</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorGreen</Key>
+      <Value>Tinta Verde</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorBlue</Key>
+      <Value>Tinta Blu</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorYellow</Key>
+      <Value>Tinta Giallo</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorOrange</Key>
+      <Value>Tinta Arancione</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Pumpkin</Key>
+      <Value>Zucca</Value>
+      <Unit/>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Rice</Key>
+      <Value>Riso</Value>
       <Unit>g</Unit>
     </RecordReagent>
   </Reagents>
@@ -152,9 +191,13 @@
       <Value>Inquinante</Value>
     </Record>
     <Record>
-      <Key>Water</Key>
+      <Key>Water</Key>							 
       <Value>Acqua</Value>
     </Record>
+    <Record>
+      <Key>NitrousOxide</Key>
+      <Value>Protossido di Azoto</Value>
+	</Record>		 
   </Gases>
   <Actions>
     <Record>
@@ -1892,10 +1935,6 @@
       <Value>Kit (Manifattura)</Value>
     </Record>
     <Record>
-      <Key>ItemPipeKit</Key>
-      <Value>Kit di tubi</Value>
-    </Record>
-    <Record>
       <Key>ItemKitPipe</Key>
       <Value>Kit (Tubo)</Value>
     </Record>
@@ -2137,7 +2176,7 @@
     </Record>
     <Record>
       <Key>StructureLogicMath</Key>
-      <Value>UUnità Logica: Matematica</Value>
+      <Value>Unità Logica: Matematica</Value>
     </Record>
     <Record>
       <Key>StructureLogicWriter</Key>
@@ -2276,6 +2315,10 @@
       <Value>Patata</Value>
     </Record>
     <Record>
+      <Key>ItemTomato</Key>
+      <Value>Pomodoro</Value>
+    </Record>
+    <Record>		
       <Key>StructureGasGenerator</Key>
       <Value>Generatore a gas combustibile</Value>
     </Record>
@@ -2294,6 +2337,10 @@
     <Record>
       <Key>ItemPotatoBaked</Key>
       <Value>Patata al forno</Value>
+	</Record>
+	<Record>
+      <Key>ItemTomatoSoup</Key>
+      <Value>Zuppa di Pomodoro</Value>
     </Record>
     <Record>
       <Key>ItemSoyOil</Key>
@@ -2537,7 +2584,7 @@
     </Record>
     <Record>
       <Key>CompositeWallPanelling11</Key>
-      <Value>Panneaux muraux Composite 11</Value>
+      <Value>Pannello a muro composito 11</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling12</Key>
@@ -2888,6 +2935,10 @@
       <Value>Kit (Climatizzatore portatile)</Value>
     </Record>
     <Record>
+      <Key>ItemKitPipeValve</Key>
+      <Value>Kit tubo con valvola</Value>
+    </Record>
+    <Record>		
       <Key>ItemKitDynamicGenerator</Key>
       <Value>Kit (Generatore portatile)</Value>
     </Record>
@@ -2997,9 +3048,237 @@
     </Record>
     <Record>
       <Key>ItemKitDynamicCanister</Key>
-      <Value>Kit (Serbatoio portatile)</Value>
+      <Value>Kit (Serbatoio portatile)</Value>						  
       </Record>
-    </Things>    
+       <Record>
+      <Key>ItemFlowerBlue</Key>
+      <Value>Fiore (Blu)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerOrange</Key>
+      <Value>Fiore (Arancione)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerRed</Key>
+      <Value>Fiore (Rosso)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerYellow</Key>
+      <Value>Fiore (Giallo)</Value>
+    </Record>
+    <Record>
+      <Key>AppliancePaintMixer</Key>
+      <Value>Miscelatore per tinte</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorBlue</Key>
+      <Value>Colorante (Blu)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCarbon</Key>
+      <Value>Polvere di carbonio</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorGreen</Key>
+      <Value>Colorante (Verde)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorOrange</Key>
+      <Value>Colorante (Arancione)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorRed</Key>
+      <Value>Colorante (Rosso)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorYellow</Key>
+      <Value>Colorante (Giallo)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerGreen</Key>
+      <Value>Fiore (Verde)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterCarbonDioxideL</Key>
+      <Value>Filtro pesante (Anidride carbonica)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterCarbonDioxideM</Key>
+      <Value>Filtro medio (Anidride carbonica)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrogenL</Key>
+      <Value>Filtro pesante (Azoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrogenM</Key>
+      <Value>Filtro medio (Azoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterOxygenL</Key>
+      <Value>Filtro pesante (Ossigeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterOxygenM</Key>
+      <Value>Filtro medio (Ossigeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterPollutantsL</Key>
+      <Value>Filtro pesante (Inquinanti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterPollutantsM</Key>
+      <Value>Filtro medio (Inquinanti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterVolatilesL</Key>
+      <Value>Filtro pesante (Gas volatili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterVolatilesM</Key>
+      <Value>Filtro medio (Gas volatili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterWaterL</Key>
+      <Value>Filtro pesante (Acqua)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterWaterM</Key>
+      <Value>Filtro medio (Acqua)</Value>
+    </Record>
+    <Record>
+      <Key>ItemMushroom</Key>
+      <Value>Fungo</Value>
+    </Record>
+    <Record>
+      <Key>ItemPumpkin</Key>
+      <Value>Zucca</Value>
+    </Record>
+    <Record>
+      <Key>ItemRice</Key>
+      <Value>Riso</Value>
+    </Record>
+    <Record>
+      <Key>ItemPumpkinPie</Key>
+      <Value>Torta di zucca</Value>
+    </Record>
+      <Record>
+      <Key>ItemHardBackpack</Key>
+      <Value>Zaino Tuta Rinforzata</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardJetpack</Key>
+      <Value>Jetpack Tuta Rinforzata</Value>
+    </Record>
+        <Record>
+      <Key>DynamicHydroponics</Key>
+      <Value>Kit idroponico portatile</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicHydroponics</Key>
+      <Value>Kit (kit idroponico portatile)</Value>
+    </Record>
+    <Record>
+      <Key>StructureKlaxon</Key>
+      <Value>Altoparlante Klaxon </Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSpeaker</Key>
+      <Value>Kit (Altoparlante)</Value>
+    </Record>
+        <Record>
+      <Key>CartridgeOreScannerColor</Key>
+      <Value>Cartuccia (Scanner minerali (Color))</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriterSwitch</Key>
+      <Value>Switch scrittore logico</Value>
+      </Record>
+    <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>Scheda Madre (IC Editor)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicCircuit</Key>
+      <Value>Kit (IC Housing)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCircuitHousing</Key>
+      <Value>IC Housing</Value>
+    </Record>
+    <Record>
+      <Key>ItemIntegratedCircuit10</Key>
+      <Value>Circuito integrato (IC10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>Idroponica automatizzata</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>Kit (Idroponica automatizzata)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBasketBall</Key>
+      <Value>Pallone da Basket </Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBasket</Key>
+      <Value>Kit Basket</Value>
+    </Record>
+    <Record>
+      <Key>StructureBasketHoop</Key>
+      <Value>Struttura Canestro Basket</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filtro (Ossido di diazoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Filtro pesante (Ossido di diazoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Filtro medio (Ossido di diazoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Bombola (Protossido di Azoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemNVG</Key>
+      <Value>Visore Notturno</Value>
+    </Record>
+    <Record>
+      <Key>ItemGlasses</Key>
+      <Value>Occhiali</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicHashGen</Key>
+      <Value>Generatore Logico HASH</Value>
+    </Record>
+    <Record>
+      <Key>StructureShuttleLandingPad</Key>
+      <Value>Pad D'Atterraggio</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLandingPad</Key>
+      <Value>Kit (Pad D'Atterraggio)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSatelliteDish</Key>
+      <Value>Antenna Parabolica</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSatelliteDish</Key>
+      <Value>Kit (Antenna Parabolica)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPlasticSheets</Key>
+      <Value>Fogli di Plastica</Value>
+    </Record>
+  </Things>	   
   <Slots>
     <Record>
       <Key>Output</Key>
@@ -3039,8 +3318,12 @@
     </Record>
     <Record>
       <Key>Lungs</Key>
-      <Value>Polmoni</Value>
+      <Value>Polmoni</Value>				
     </Record>
+    <Record>
+      <Key>Glasses</Key>
+      <Value>Occhiali</Value>
+    </Record>	
     <Record>
       <Key>Belt</Key>
       <Value>Cintura</Value>
@@ -3143,7 +3426,7 @@
     </Record>
     <Record>
       <Key>PortableSlot</Key>
-      <Value>Slot portatile</Value>  <!-- da controllare -->
+      <Value>Slot portatile</Value>
     </Record>
     <Record>
       <Key>Bed</Key>
@@ -3165,10 +3448,6 @@
       <Key>AccessCard</Key>
       <Value>Scheda d'accesso</Value>
     </Record>
-	<Record>
-      <Key>Access</Key>
-      <Value>Accesso</Value>
-    </Record>
     <Record>
       <Key>Magazine</Key>
       <Value>Magazine</Value>
@@ -3187,7 +3466,11 @@
     </Record>
     <Record>
       <Key>Circuit</Key>
-      <Value>Circuito</Value>
+      <Value>Circuito</Value>						  
+    </Record>
+	    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Chip Programmabile</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3322,10 +3605,6 @@
     <Record>
       <Key>PressureDown</Key>
       <Value>Dimin. pressione</Value>
-    </Record>
-    <Record>
-      <Key/>
-      <Value/>
     </Record>
     <Record>
       <Key>Flush</Key>
@@ -3470,6 +3749,10 @@
     <Record>
       <Key>CreatePlan</Key>
       <Value>Crea Piano</Value>
+</Record>
+    <Record>
+      <Key>Search</Key>
+      <Value>Cerca</Value>
     </Record>
     <Record>
       <Key>Button4</Key>
@@ -3515,6 +3798,10 @@
       <Key>Color</Key>
       <Value>Colore</Value>
     </Record>
+    <Record>
+      <Key>Access</Key>
+      <Value>Accesso</Value>
+    </Record>		 
        <Record>
       <Key>Magazine</Key>
       <Value>Magazine</Value>
@@ -3534,7 +3821,15 @@
     <Record>
       <Key>ThrustDown</Key>
       <Value>Spinta Giu</Value>
-      </Record>
+	</Record>
+	    <Record>
+      <Key>Button5</Key>
+      <Value>Button5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Button6</Value>
+    </Record>
   </Interactables>
   <Interface>
     <Record>
@@ -3676,6 +3971,10 @@
     <Record>
       <Key>InventorySlotBelt</Key>
       <Value>Cintura</Value>
+</Record>
+    <Record>
+      <Key>InventorySlotGlasses</Key>
+      <Value>Occhiali</Value>
     </Record>
     <Record>
       <Key>InventorySlotUniform</Key>
@@ -3715,7 +4014,7 @@
     </Record>
     <Record>
       <Key>GameMenuButtonReturn</Key>
-      <Value>Torna al gioco</Value>  <!-- da controllare -->
+      <Value>Riprendi la Partita</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonSave</Key>
@@ -4043,11 +4342,11 @@
     </Record>
     <Record>
       <Key>SettingsUpdatePort</Key>
-      <Value>Porta per Update</Value> <!-- da controllare -->
+      <Value>Porta per Update</Value>
     </Record>
     <Record>
       <Key>SettingsGamePort</Key>
-      <Value>Porta di Gioco</Value> <!-- da controllare -->
+      <Value>Porta di Gioco</Value>
     </Record>
     <Record>
       <Key>SettingsMusic</Key>
@@ -4204,6 +4503,18 @@ Per cui esci là fuori, Stationeer !</Value>
       <Value>Esci</Value>
     </Record>
     <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Cancella iscrizione</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Sei sicuro di voler cancellare l'iscrizione a quest'oggetto del Workshop?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Cancella iscrizione</Value>
+    </Record>
+    <Record>	
       <Key>PromptOverwriteTitle</Key>
       <Value>Sovrascrivi</Value>
     </Record>
@@ -4213,7 +4524,7 @@ Per cui esci là fuori, Stationeer !</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteConfirm</Key>
-      <Value>Cponferma</Value>
+      <Value>Conferma</Value>
     </Record>
     <Record>
       <Key>PromptPublishTitle</Key>
@@ -4291,7 +4602,6 @@ Per cui esci là fuori, Stationeer !</Value>
       <Key>AlertNoResponse</Key>
       <Value>Il server non risponde. 
 Prova di nuovo.</Value>													   
-						 
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -4741,7 +5051,76 @@ Temperatura {1}</Value>
     <Record>
       <Key>ScenarioScoreboardHeading</Key>
       <Value>Scenario Completato</Value>
+</Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>Copia</Value>
     </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>Incolla</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>Aiuto</Value>
+    </Record>
+    <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>Aiuto</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Carica</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>Modifica</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Libreria</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAdvanced</Key>
+      <Value>Avanzate</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Inventorio Ereditato</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>Disabilita Visualizzazione Acqua</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInterface</Key>
+      <Value>Interfaccia
+</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUPNPEnabled</Key>
+      <Value>Attiva UPNP</Value>
+    </Record>
+    <Record>
+      <Key>SettingsEnableClouds</Key>
+      <Value>Attiva Clouds</Value>
+    </Record>
+    <Record>
+      <Key>SettingsClouds</Key>
+      <Value>Attiva Clouds</Value>
+    </Record>	  
   </Interface>
   <Colors>
     <Record>
